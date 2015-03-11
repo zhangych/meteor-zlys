@@ -1,0 +1,17 @@
+var postsData=[
+	{
+		title:"zhang san",
+		url:"zhang_san.domain"
+	},
+	{
+		title:"zhang san1",
+		url:"zhang_san.domain"
+	},
+	{
+		title:"zhang san2",
+		url:"zhang_san.domain"
+	}
+];
+Template.postsList.helpers({
+	posts:postsData
+});

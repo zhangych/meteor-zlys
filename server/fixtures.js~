@@ -1,0 +1,9 @@
+if(Posts.find().count()===0){
+	Posts.insert({
+		title:'这是我第一个Meteor测试程序!',
+		url:'#'});
+	Posts.insert({
+		title:'Meteor',
+		url:'http://meteor.com'
+	});
+|
